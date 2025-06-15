@@ -1,1 +1,3 @@
 # DNS-Protokol-Analizi-nslookup-ve-Wireshark-Uygulamasi
+
+Bu proje, DNS protokolünün işleyişini nslookup komut satırı aracı ve Wireshark ağ analizörü ile pratik olarak incelemektedir. İlk olarak, nslookup kullanılarak iitb.ac.in alan adının IP adresi ve yetkili (authoritative) isim sunucuları keşfedilmiştir. Ardından, yerel DNS önbelleği temizlendikten sonra www.ietf.org adresine yapılan bir ziyaret sırasında oluşan ağ trafiği Wireshark ile yakalanmış ve elde edilen paketler analiz edilmiştir. Bu analiz, bir DNS sorgu/cevap döngüsünün UDP protokolü üzerinden nasıl gerçekleştiğini, port numaralarını ve mesaj yapılarının içeriğini paket seviyesinde ortaya koyarak DNS çözümleme sürecini detaylı bir şekilde aydınlatmaktadır.
